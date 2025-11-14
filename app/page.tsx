@@ -1,4 +1,3 @@
-// app/page.tsx
 import Image from "next/image";
 
 const links = [
@@ -22,12 +21,11 @@ const links = [
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#050816] text-white flex items-center justify-center px-4">
+    <main className="min-h-screen bg-gradient-to-b from-[#050816] via-[#050816] to-black text-white flex items-center justify-center px-4">
       <div className="w-full max-w-xl text-center py-12 space-y-8">
         {/* Avatar */}
         <div className="flex justify-center">
-          <div className="relative h-28 w-28 rounded-full overflow-hidden border border-white/20 shadow-[0_0_40px_rgba(255,255,255,0.2)]">
-            {/* Replace src with your actual profile image path in /public */}
+          <div className="relative h-28 w-28 rounded-full overflow-hidden border border-white/30 shadow-[0_0_40px_rgba(255,255,255,0.35)]">
             <Image
               src="/avatar-digital-luxe-goddess.jpg"
               alt="Digital Luxe Goddess"
@@ -45,14 +43,14 @@ export default function HomePage() {
           <p className="text-sm text-white/70">@digitalluxegoddess</p>
         </div>
 
-        {/* Short bio (link-in-bio style) */}
+        {/* Short bio */}
         <p className="text-sm text-white/80 max-w-md mx-auto leading-relaxed">
           Helping creators, coaches, and service providers turn their gifts into
           evergreen digital offers, high-ticket experiences, and consistent
           $10K+ months.
         </p>
 
-        {/* Tags / identity chips */}
+        {/* Tags */}
         <div className="flex flex-wrap justify-center gap-2 text-[11px]">
           <span className="px-3 py-1 rounded-full border border-white/20 bg-white/5">
             🎥 Digital Products & Funnels
@@ -80,7 +78,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* Footer / tiny CTA */}
+        {/* Footer */}
         <div className="pt-4 text-[11px] text-white/60 space-y-1">
           <p>
             Ready for a custom strategy, launch plan, or done-for-you systems?
