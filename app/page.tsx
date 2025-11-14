@@ -14,8 +14,8 @@ const links = [
     href: "https://the-goddess-empowerment.printify.me/",
   },
   {
-    label: "🎨 Canva Resources & Templates",
-    href: "https://www.canva.com/design/DAGiBpm_H3s/XndvWg9CNvhhIto3QcGQAQ/edit",
+    label: "  💸💵 FREE GUIDE : FACELESS Instagram FREEBIE💵💸",
+    href: "https://www.canva.com/design/DAGiBpm_H3s/XndvWg9CNvhhIto3QcGQAQ/edit?utm_content=DAGiBpm_H3s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
 ];
 
