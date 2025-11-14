@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: dark;
+}
+
 html,
 body {
   padding: 0;
@@ -9,8 +13,13 @@ body {
 }
 
 body {
-  background: #050816;
+  background: radial-gradient(circle at top, #111827 0, #050816 40%, #000000 100%);
   color: #ffffff;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
     "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
