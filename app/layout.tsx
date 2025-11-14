@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Digital Luxe Goddess",
+  title: "Digital Luxe Goddess | Link Hub & Evergreen Offers",
   description:
-    "Digital Luxe Goddess – Helping creators, coaches, and service providers build evergreen, high-ticket digital brands.",
+    "Digital Luxe Goddess helps creators, coaches, and service providers turn their gifts into evergreen digital products and income.",
 };
 
 export default function RootLayout({
@@ -14,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-[#050816] text-white">{children}</body>
+      <body className="min-h-screen bg-[#050816] text-white flex items-center justify-center">
+        {children}
+      </body>
     </html>
   );
 }
